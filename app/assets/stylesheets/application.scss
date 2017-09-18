@@ -16,3 +16,222 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+
+
+.welcome-box{
+  margin: 0px;
+}
+
+// 轮播按钮
+.carousel-control.right, .carousel-control.left {
+
+    background-image: none;
+    color: #f4511e;
+}
+// color是左右箭头颜色
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+// 指示圈颜色
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+//指示点颜色
+
+
+/*===== intro首页-商品轮播内容 =====*/
+.intro-box {
+margin: 0px ;
+.pic-1{
+  margin-top: 0px;
+  height: 700px;
+
+  // background-size: contain;                            //确保图片完全撑开
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(http://ww2.sinaimg.cn/large/80220f14jw1f4292b7gl9j215o0qo7ez.jpg);
+}
+.pic-2{
+  height:700px;
+  background-size: contain;                             //确保图片完全撑开
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://ws3.sinaimg.cn/large/006tKfTcly1fjmmdliz4rj31kw16oqjv.jpg);
+}
+.pic-3{
+  height:700px;
+  background-size: contain;;                             //确保图片完全撑开
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(http://www.duku.cn/public/images/1b/dd/b1/416cf263d672f7ec5791e07d860fdbda808464ae.jpg?1442041540#h);
+}
+.item {
+    h4 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;                             // 字体粗细
+      letter-spacing: 5px;                           // 字间距
+      text-shadow: 5px 1px 3px #333;                //文本阴影效果
+    }
+
+    p {
+      color: #f8f8f8;
+      font-size: 22px;
+      font-style: italic;
+    }
+    img{
+      height:auto;
+      width: 100%
+    }
+  }
+  //
+  // .carousel-inner {                                   //给图片整好形
+  //   height:500px;
+  //   background-size: cover;                             //确保图片完全撑开
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   background-image: url(http://ww2.sinaimg.cn/large/80220f14jw1f4292b7gl9j215o0qo7ez.jpg);
+  // }
+
+}
+
+// 品牌故事
+.story-box {
+  text-align: center;
+  padding: 25px 62.5px 50px 62.5px;
+
+  .short-line {
+      background: #eb5424;
+      margin: 15px auto 35px auto;
+      width: 125px;
+      height: 2px;
+    }
+
+  h3 {
+    font-size: 20px;
+
+  }
+
+  p {
+    color: #666;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  hr {
+    height: 1.5px;
+    background-color: #999;
+  }
+}
+
+
+// 页底商品
+.product-box {
+  padding: 50px 0 50px 0;
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  img {
+    height: 200px;
+    width: 305px;
+  }
+  .short-line {
+      background: #eb5424;
+      margin: 15px auto 35px auto;
+      width: 125px;
+      height: 2px;
+    }
+
+  .box {
+    height: 200px;
+    width: 305px;
+	  margin-top:  15px;
+	  box-shadow: 0.5px 0.5px 3px #aaa;
+	}
+  .box:hover {
+    opacity: 0.8;
+  }
+
+  }
+
+  /*===== Footer 页脚 ======*/
+.footer{
+  text-align: center;
+  min-height: 200px;
+  background-color: #02061A;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 14px;
+
+  h4 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  li {
+    margin-top: 5px;
+  }
+
+  a {
+    text-decoration:none;
+    color: #ccc;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: #eb5424;
+  }
+
+  img {
+    display: inline-block;
+    margin-top: -6px;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff; /* Logo 外框 */
+    border-radius: 25px; /* Logo 切成圓形 */
+  }
+
+  p {
+    a {
+      color: #ddd;
+    }
+    a:hover {
+      color: #eb5424;
+    }
+  }
+
+  .footer-box {
+    text-align: left !important;
+    margin-top: 15px;
+  }
+
+  .footer-content {
+    font-size: 16px;
+    font-family: Raleway;
+    color: #ddd;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: 200;
+
+    img {
+      width: 25px;
+      margin-left: 7.5px;
+      margin-right: -0.1px;
+    }
+
+    img:hover {
+      opacity: 1;
+    }
+  }
+}
